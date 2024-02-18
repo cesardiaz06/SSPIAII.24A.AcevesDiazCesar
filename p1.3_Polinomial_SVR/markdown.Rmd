@@ -1,0 +1,30 @@
+---
+title: "P1.3 - Polinomial Vs. SVR"
+author: "Aceves Díaz César Alejandro - 217589504"
+date: "2024-02-18"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Modelos polinomiales.
+En esta actividad se realizó el procedimiento de: <br>
+  - Carga de dataset.<br>
+  - Exploración de datos. <br>
+  - Selección de variables. <br>
+  - División de modelos. <br>
+  - Evaluación de modelos de grado n. 
+  - Gráficas según el grado de cada modelo.
+  
+```{r, echo=FALSE}
+load("Grafica")
+plt.grid
+```
+
+## Conclusiones.
+Con base en los R^2 ajustados, se determinó que el mejor modelo es el de grado dos, debido a que su valor es de 0.9337 siendo este el menor valor con respecto al resto de modelos con grado mayor o menor.
+
+
+
