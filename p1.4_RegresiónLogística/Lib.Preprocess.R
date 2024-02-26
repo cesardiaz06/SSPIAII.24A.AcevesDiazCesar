@@ -1,5 +1,5 @@
 #Librerías.
-libs <- c("ggplot","caTools","mltools","data.table","cowplot","e1071","caret")
+libs <- c("ggplot","caTools","mltools","data.table","cowplot","e1071","caret","corrplot","viris")
 
 #Librerías.
 if(!require(ggplot2))
@@ -16,3 +16,5 @@ library(data.table)
 library(cowplot)
 library(e1071)
 library(caret)
+library(corrplot)
+library(viridis)
