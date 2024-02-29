@@ -4,9 +4,7 @@ options(scipen = 999) #Mostrar decimales en números.
 
 
 #Datos. 
-df.Social <- read.csv(file ="Social_Network_Ads.csv",
-                      header = T,
-                      stringsAsFactors = T)
+
 
 
 #Eliminamos la columna de ID de usuario ya que no es relevante para el modelo.
